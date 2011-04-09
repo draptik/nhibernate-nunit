@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.MyApp.Domain", "MyCompany.MyApp.Domain\MyCompany.MyApp.Domain.csproj", "{B333D130-5B99-4370-84CF-3AE6485B26EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{20CECFC3-6059-4613-9F17-11AC5E30B24B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Library\NHibernate\3.1.0\Required_Bins\nhibernate-configuration.xsd = ..\Library\NHibernate\3.1.0\Required_Bins\nhibernate-configuration.xsd
+		..\Library\NHibernate\3.1.0\Required_Bins\nhibernate-mapping.xsd = ..\Library\NHibernate\3.1.0\Required_Bins\nhibernate-mapping.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.MyApp.Persistence", "MyCompany.MyApp.Persistence\MyCompany.MyApp.Persistence.csproj", "{979949B5-021D-4327-9023-13E15FED07E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.MyApp.Persistence.Test", "MyCompany.MyApp.Persistence.Test\MyCompany.MyApp.Persistence.Test.csproj", "{71FFFA0C-39B7-4B3B-86CF-D41949EA21E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B333D130-5B99-4370-84CF-3AE6485B26EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B333D130-5B99-4370-84CF-3AE6485B26EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B333D130-5B99-4370-84CF-3AE6485B26EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B333D130-5B99-4370-84CF-3AE6485B26EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979949B5-021D-4327-9023-13E15FED07E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979949B5-021D-4327-9023-13E15FED07E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979949B5-021D-4327-9023-13E15FED07E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979949B5-021D-4327-9023-13E15FED07E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FFFA0C-39B7-4B3B-86CF-D41949EA21E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FFFA0C-39B7-4B3B-86CF-D41949EA21E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FFFA0C-39B7-4B3B-86CF-D41949EA21E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FFFA0C-39B7-4B3B-86CF-D41949EA21E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

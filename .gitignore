@@ -1,7 +1,11 @@
 
 
-*/bin/
-*/obj/
-*.user
-*.vs10x
 *.log
+*.dat
+*.suo
+*.user
+bin/
+obj/
+_Resharper*
+*.vs10x
+
